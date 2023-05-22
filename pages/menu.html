@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>Mojo Cafeteria</title>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,30 +18,41 @@
         <div class="contenedor">
             <p>Lu-Vi de 8 a 20 | Sab-Dom y feriados de 8:30 a 20 | José Hernández 2696, esquina Moldes</p>
         </div>
-        <div class="contenedorDeLogo-nav">
-            <div class="logo1">
-                <img class="logoMojoOk" src="../img/logoMojoOk.png" alt="logo" class="logo"></li>
+        <div>
+            <div class="contenedorDeLogo-nav">
+                <div>
+                    <img class="logoMojoOk" src="../img/logoMojoOk.png" alt="logo"></li>
+                </div>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="../pages/menu.html">Menu</a>
+                                <a class="nav-link" href="../pages/sobreNosotros.html">Sobre Nosotros</a>
+                                <a class="nav-link" href="../pages/influencer.html">Influencers</a>
+                                <a class="nav-link" href="../pages/contactanos.html">Contactanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <nav class="nav1">
-                <ul class="liContainer">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./menu.html">Menu</a></li>
-                    <li><a href="./sobreNosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="./influencer.html">Influencers</a></li>
-                    <li><a href="./contactanos.html">Contactanos</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
     <main>
         <section>
-            <article>
-                <h2>Menus y Promos</h2>
-                <div>
-                    <img src="../img/menuMojo1.jpg" alt="Foto menu 1">
+            <article class="article-h1-div">
+                <h1 class="h1-menu">Menus y Promos</h1>
+                <div class="div-img">
+                    <img class="div-img-1" src="../img/menuMojo1.jpg" alt="Foto menu 1">
                 </div>
-                <div>
-                    <img src="../img/menuMojo2.jpg" alt="Foto menu 2">
+                <div class="div-img">
+                    <img class="div-img-1" src="../img/menuMojo2.jpg" alt="Foto menu 2">
                 </div>
             </article>
         </section>
@@ -54,5 +66,6 @@
             <p class="footerParrafo"> © 2023 MojoCafeteria derechos de autor.</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
