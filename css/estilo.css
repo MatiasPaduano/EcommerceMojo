@@ -472,10 +472,10 @@ textarea{
 
 @media (max-width: 470px){
     .contenedorDeLogo-nav{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .header{
-        height: 32.5vh;
+        min-height: 32.5vh;
     }
     .bg-section-h1-div-sb{
         width: 350px;
