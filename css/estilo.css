@@ -515,6 +515,10 @@ textarea {
         width: 28rem;
     }
 
+    .title{
+        font-size: 8rem;
+    }
+
     /* CONTACTANOS */
     .article-iframe-img {
         display: flex;
@@ -535,6 +539,10 @@ textarea {
         display: flex;
         justify-content: center;
         margin-top: 20px;
+    }
+
+    .article-h1-p-contac{
+        min-height: 100vh;
     }
 }
 
@@ -672,7 +680,7 @@ textarea {
         align-items: center;
     }
 
-    CONTACTANOS
+    /* CONTACTANOS */
     .article-h1-p-contac {
         display: flex;
         flex-direction: column;
@@ -685,6 +693,10 @@ textarea {
 
     .contenedor-img-contactanos {
         display: none;
+    }
+
+    .contenedor-iframe{
+        margin-left: 8px;
     }
 
 @media (max-width: 475px) {
