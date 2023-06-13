@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- css main-->
     <link rel="stylesheet" href="../css/estilo.css">
+    <!-- aos  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,9 +25,9 @@
         </div>
         <div>
             <div class="contenedorDeLogo-nav">
-                <div>
+                <a href="../index.html">
                     <img class="logoMojoOk" src="../img/logoMojoOk.png" alt="logo"></li>
-                </div>
+                </a>
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -51,14 +53,26 @@
         <section>
             <article class="article-h1-div">
                 <h1 class="h1-menu">Menus y Promos</h1>
-                <div class="div-img">
-                    <img class="div-img-1" src="../img/menuMojo1.jpg" alt="Foto menu 1">
+                <div class="contenedor-imagenes-menu1">
+                    <img data-aos="fade-right" data-aos-duration="900" class="tamaño-img-menu" src="../img/menu1izq.jpg" alt="">
+                    <img data-aos="fade-left" data-aos-duration="900" class="tamaño-img-menu" src="../img/menu1centro.jpg" alt="">
                 </div>
-                <div class="div-img">
-                    <img class="div-img-1" src="../img/menuMojo2.jpg" alt="Foto menu 2">
+                <div class="contenedor-imagenes-menu2">
+                    <img data-aos="fade-right" data-aos-duration="900" class="tamaño-img-menu" src="../img/menu1der.jpg" alt="">
+                    <img data-aos="fade-left" data-aos-duration="900" class="tamaño-img-menu" src="../img/menu2izq.jpg" alt="">
+                </div>
+                <div class="contenedor-imagenes-menu3">
+                    <img data-aos="fade-right" data-aos-duration="900" class="tamaño-img-menu" src="../img/menu2centro.jpg" alt="">
+                    <img data-aos="fade-left" data-aos-duration="900" class="tamaño-img-menu" src="../img/menu2der.jpg" alt="">
                 </div>
             </article>
         </section>
+        <!-- <div class="div-img">
+            <img class="div-img-1" src="../img/menuMojo1.jpg" alt="Foto menu 1">
+        </div>
+        <div class="div-img">
+            <img class="div-img-1" src="../img/menuMojo2.jpg" alt="Foto menu 2">
+        </div> -->
     </main>
     <footer>
         <div class="contenedorRedes">
@@ -74,6 +88,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
