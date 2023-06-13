@@ -1,0 +1,55 @@
+@use "../variables" as*;
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+body {
+	background-color: $hueso;
+}
+.contenedor {
+	width: 100%;
+	text-align: center;
+	background-color: $marronClaro;
+	color: $hueso;
+}
+header {
+	background-color: $hueso;
+	width: 100%;
+	align-items: center;
+	min-height: 25vh;
+}
+.contenedorDeLogo-nav {
+	display: flex;
+	align-items: center;
+	gap: 120px;
+	border-bottom: 2px solid $marronClaro;
+	margin-bottom: 20px;
+}
+.navbar {
+	width: 100%;
+}
+.navbar-nav {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.nav-link {
+	color: $marronOscuro;
+	font-size: 20px;
+	font-weight: 600;
+	&:hover {
+		color: $palta;
+	}
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+	color: $palta;
+}
+.logoMojoOk {
+	height: 180px;
+}
+.logo {
+	@include sizes(100%,100%)
+}
+

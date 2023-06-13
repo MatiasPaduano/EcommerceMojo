@@ -1,0 +1,24 @@
+@use "../variables" as*;
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.redesSociales {
+	@include sizes(30px,30px)
+}
+.redesSocialesIg {
+	@include sizes(30px,30px)
+}
+.contenedorRedes {
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	gap: 10px;
+}
+.footerParrafo {
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	font-weight: 300;
+}

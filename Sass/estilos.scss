@@ -1,0 +1,186 @@
+@use "assets/header";
+@use "assets/footer";
+@use "index";
+@use "menu";
+@use "sobreNosotros";
+@use "contactanos";
+@use "influencer";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1340px){
+    .tamaño-img-menu {
+        height: 50rem;
+        width: 28rem;
+    }
+    .title {
+        font-size: 8rem;
+    }
+    .article-iframe-img {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img-fachada {
+        height: 45rem;
+        width: 70%;
+    }
+    .contenedor-imgFachada {
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-iframe {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }    
+}
+
+@media (max-width: 1052px){
+    .contenedorDeLogo-nav {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .header {
+        min-height: 31.5vh;
+    }
+    .title {
+        font-size: 5rem;
+    }
+    .tituloConocenos {
+        font-size: 35px;
+    }
+    .tamaño-img-menu {
+        height: 42rem;
+        width: 26rem;
+    }
+    .article-im-p-div {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .contenedor-bg-a-inf {
+        height: 85vh;
+    }
+    .p-inf {
+        width: 100%;
+    }
+    .contenedor-p-inf {
+        margin-left: 20px;
+        margin-right: 30px;
+        margin-top: 25px;
+    }
+    .div-h1-p-inf {
+        text-align: center;
+    }    
+}
+
+@media (max-width: 991px){
+    .contenedorDeLogo-nav {
+        flex-direction: row;
+    }
+    .navbar>.container,
+        .navbar>.container-fluid,
+        .navbar>.container-lg,
+        .navbar>.container-md,
+        .navbar>.container-sm,
+        .navbar>.container-xl,
+        .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .header {
+        min-height: 25.5vh;
+    }
+    .contenedor-de-caruseles {
+        grid-template-columns: 70%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .contenedor-segundo-carusel {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .contenedor-tercer-carusel {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .contenedor-imagenes-menu2 {
+        flex-direction: column;
+    }
+    .contenedor-imagenes-menu1 {
+        flex-direction: column;
+    }
+    .contenedor-imagenes-menu3 {
+        flex-direction: column;
+    }
+    .tamaño-img-menu {
+        height: 55rem;
+        width: 40rem;
+    }
+    
+}
+
+@media (max-width: 785px){
+    .title {
+        font-size: 3rem;
+    }
+    .tituloConocenos {
+        font-size: 25px;
+    }
+    .tamaño-img-menu {
+        height: 40rem;
+        width: 26rem;
+    }
+    .bg-section-h1-div-sb {
+        margin-right: 0;
+    }
+    .bg-section-sb {
+        align-items: center;
+    }
+    .article-h1-p-contac {
+        display: flex;
+        flex-direction: column;
+    }
+    .h1-contactanos {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .contenedor-img-contactanos {
+        display: none;
+    }
+    .iframe-contactanos {
+        height: 450px;
+        width: 450px;
+    }
+    
+}
+
+@media (max-width: 475px){
+    .tituloConocenos {
+        font-size: 22px;
+    }
+    .tamaño-img-menu {
+        height: 32rem;
+        width: 18rem;
+    }
+    .contenedorDeLogo-nav {
+        flex-direction: column;
+    }
+    .header {
+        min-height: 32.5vh;
+    }
+    .bg-section-h1-div-sb {
+        width: 350px;
+    }
+    .iframe-contactanos {
+        height: 380px;
+        width: 250px;
+    }
+    
+}

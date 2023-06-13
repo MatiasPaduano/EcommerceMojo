@@ -1,0 +1,80 @@
+@use "variables" as*;
+
+.article-h1-p-contac {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	min-height: 100vh;
+	margin-top: 40px;
+}
+form {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	justify-self: center;
+	align-self: center;
+}
+.contenedor-img-contactanos {
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/340825501_1954019608323671_5523164717875075965_n.jpg);
+	background-size: cover;
+	background-position: 0 90%;
+}
+.h1-contactanos {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	justify-self: center;
+	font-size: 80px;
+	color: $marronOscuro;
+	font-weight: 700;
+}
+.asunto-contactanos {
+	width: 100%;
+	margin-top: 20px;
+}
+.contenedor-nombre-mail-contactanos {
+	width: 100%;
+}
+textarea {
+	width: 100%;
+	margin-top: 20px;
+}
+.boton-enviar-contactanos {
+	text-align: center;
+}
+.contenedor-boton-enviar-contactanos {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+.bg-input {
+	background-color: $hueso;
+	border: 0;
+	border-bottom: 2px solid black;
+}
+.bg-input-enviar {
+	border-radius: 10px;
+	border: 3px solid $palta;
+	padding: 8px;
+	font-size: 20px;
+	font-weight: 300;
+	&:hover {
+		background-color: $palta;
+	}
+}
+.article-iframe-img {
+	width: 100%;
+	display: flex;
+	border-top: 2px solid $marronClaro;
+	margin-top: 20px;
+	justify-content: space-around;
+	padding-top: 40px;
+}
+.img-fachada {
+	height: 45rem;
+	border: 1px solid black;
+}
+.iframe-contactanos {
+	height: 45rem;
+	border: 2px solid black;
+}

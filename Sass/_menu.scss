@@ -1,0 +1,51 @@
+@use "variables" as*;
+
+.article-h1-div {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.h1-menu {
+	font-size: 50px;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	color: $marronOscuro;
+}
+.contenedor-imagenes-menu1 {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 30px;
+	overflow: hidden;
+	gap: 40px;
+}
+.tamaño-img-menu {
+	height: 60rem;
+	width: 38rem;
+	scale: 0.99;
+	border-radius: 5px;
+	border: solid $marronOscuro;
+}
+.contenedor-imagenes-menu2 {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	gap: 40px;
+}
+.contenedor-imagenes-menu3 {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	gap: 40px;
+}
+.div-img {
+	margin-bottom: 20px;
+}
+.div-img-1 {
+	align-items: center;
+	display: flex;
+	max-width: 1500px;
+	min-height: 1px;
+	width: auto;
+	height: auto;
+}
