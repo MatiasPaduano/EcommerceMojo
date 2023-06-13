@@ -74,12 +74,6 @@ header {
     align-items: center;
 }
 
-.tittle {
-    text-align: center;
-    color: black;
-    margin-top: 20px;
-}
-
 .bgimg {
     background-image: url(../img/bg-coffee.jpeg);
     min-height: 80vh;
@@ -92,7 +86,7 @@ header {
 .title {
     color: beige;
     text-align: center;
-    font-size: 10rem;
+    font-size: 8rem;
     text-shadow: #745e51 1px 0 10px;
 }
 
@@ -685,6 +679,8 @@ textarea {
     .h1-contactanos {
         text-align: center;
         margin-top: 40px;
+        font-size: 60px;
+        font-weight: 600;
     }
 
     .contenedor-img-contactanos {
