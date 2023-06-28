@@ -13,8 +13,9 @@
 .contenedorRedes {
 	display: flex;
 	justify-content: center;
-	padding-top: 50px;
 	gap: 10px;
+	flex-direction: row-reverse;
+	padding-bottom: 10px;
 }
 .footerParrafo {
 	display: flex;
@@ -22,3 +23,34 @@
 	font-size: 18px;
 	font-weight: 300;
 }
+
+footer{
+	background-color: rgb(116, 94, 81);
+	margin-top: 20px;
+	p{
+		margin-bottom: 0;
+		color: $hueso;
+	}
+}
+
+.navFooter{
+	display: flex;
+    height: 8rem;
+    align-items: center;
+	margin-top: 60px;
+	ul{
+		list-style: none;
+		display: flex;
+		width: 100%;
+		justify-content: space-evenly;
+		padding-left: 0;
+	}
+	a{
+		text-decoration: none;
+		color: $hueso;
+		font-weight: 400;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+}
+
