@@ -112,6 +112,9 @@ footer p {
   font-size: 20px;
   margin-top: 20px;
 }
+.navFooter a:hover {
+  color: #a3b96d;
+}
 
 .containerBgimg {
   display: flex;

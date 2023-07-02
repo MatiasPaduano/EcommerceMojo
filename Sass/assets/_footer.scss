@@ -51,6 +51,9 @@ footer{
 		font-weight: 400;
 		font-size: 20px;
 		margin-top: 20px;
+		&:hover {
+			color: $palta;
+		}
 	}
 }
 
